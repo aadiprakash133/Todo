@@ -31,7 +31,7 @@ To run the app locally, follow these steps:
 
 2. **Navigate to the Project Directory**:
    ```bash
-   cd react-todo-app
+   cd todo
 3. **Install Dependencies**: Make sure you have Node.js installed. Then run:
     ```bash
    npm install
