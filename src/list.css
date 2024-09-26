@@ -1,0 +1,166 @@
+:root {
+  --background-color: #F4F4F4;
+  --primary-accent: #00BFA6;
+  --secondary-accent: #FF5722;
+  --highlight-color: #8BC34A;
+  --primary-text: #333333;
+  --secondary-text: #757575;
+  --disabled-color: #B0BEC5;
+  --error-color: #E53935;
+  --black:#45474B;
+  --white:#F5F7F8; 
+  --yellow:#F4CE14; 
+  --green:#379777; 
+}
+body{
+  /* background-color: var(--black);
+  color: var(--white); */
+}
+.todo-list {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.todo-list h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-container input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-container button {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-container button:last-child {
+  margin-right: 0;
+}
+
+.filter-container button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+ul li div {
+  display: flex;
+  align-items: center;
+}
+
+ul li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+ul li button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul li button:hover {
+  background-color: #0056b3;
+}
+
+ul li input[type="number"] {
+  width: 100px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+
+.task-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.task-item span{
+  padding:10px;
+}
+.fa {
+  font-size: 20px;
+   padding:10px;
+  
+}
+.edit, .fa-save{
+  background-color: #007bff;
+  color: white;
+}
+.delete{
+  background-color: red;
+  color: white;
+}
+.action{
+  display: flex;
+  gap: 10px;
+}
+.editing{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.task-item span{
+  font-size: 18px;
+}
