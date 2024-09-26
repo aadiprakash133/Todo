@@ -27,7 +27,7 @@ To run the app locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/React.git
+   git clone https://github.com/yourusername/Todo.git
 
 2. **Navigate to the Project Directory**:
    ```bash
