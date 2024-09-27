@@ -27,19 +27,11 @@ To run the app locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-<<<<<<< HEAD
-   git clone https://github.com/yourusername/Todo.git
+   git clone https://github.com/aadiprakashh/Todo.git
 
 2. **Navigate to the Project Directory**:
    ```bash
    cd todo
-=======
-   git clone https://github.com/yourusername/React.git
-
-2. **Navigate to the Project Directory**:
-   ```bash
-   cd react-todo-app
->>>>>>> 44294a5 (Initial commit)
 3. **Install Dependencies**: Make sure you have Node.js installed. Then run:
     ```bash
    npm install
